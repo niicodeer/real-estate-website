@@ -1,10 +1,14 @@
-import { useState } from "react";
+import HeaderNav from "./components/HeaderNav";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-
+      <HeaderNav />
+      <main>
+      <Outlet />
+      </main>
+      <Footer />
     </>
   );
 }
