@@ -7,18 +7,26 @@ import FeatureSectionItem from "./FeatureSectionItem";
 export default function FeaturesSection() {
   return (
     <section>
-      <div className="flex flex-wrap text-center border-8 border-gray-15">
+      <div className="flex flex-wrap text-center border-8 border-gray-15 rounded-xl lg:rounded-none">
         <FeatureSectionItem title="Find Your Dream Home">
-          <IconStore />
+          <div className="w-12 h-12 lg:w-14 lg:h-14 2xl:w-20 2xl:h-20">
+            <IconStore />
+          </div>
         </FeatureSectionItem>
         <FeatureSectionItem title="Unlock Property Value">
-          <IconMoney />
+          <div className="w-12 h-12 lg:w-14 lg:h-14 2xl:w-20 2xl:h-20">
+            <IconMoney />
+          </div>
         </FeatureSectionItem>
         <FeatureSectionItem title="Effortless Property Management">
-          <IconBuilding />
+          <div className="w-12 h-12 lg:w-14 lg:h-14 2xl:w-20 2xl:h-20">
+            <IconBuilding />
+          </div>
         </FeatureSectionItem>
         <FeatureSectionItem title="Smart Investments, Informed Decisions">
-          <IconSun />
+          <div className="w-12 h-12 lg:w-14 lg:h-14 2xl:w-20 2xl:h-20">
+            <IconSun />
+          </div>
         </FeatureSectionItem>
       </div>
     </section>

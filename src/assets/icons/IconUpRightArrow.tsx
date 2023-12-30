@@ -1,10 +1,9 @@
-import React from "react";
 
 export default function IconUpRightArrow() {
   return (
     <svg
-      width="34"
-      height="34"
+      width="auto"
+      height="auto"
       viewBox="0 0 34 34"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

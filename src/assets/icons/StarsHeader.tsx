@@ -1,8 +1,8 @@
 export default function StarsHeader() {
   return (
     <svg
-      width="69"
-      height="30"
+      width="auto"
+      height="auto"
       viewBox="0 0 69 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

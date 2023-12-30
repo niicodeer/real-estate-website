@@ -1,56 +1,20 @@
 import IconMail from "../assets/icons/IconMail";
 import IconSend from "../assets/icons/IconSend";
 import Logo from "../assets/Logo";
-import { links } from "../footerLinks";
+import { links } from "../data/footerLinks.js";
 import FooterCategory from "./FooterCategory.js";
 
 export default function Footer() {
   return (
     <footer className="text-white body-font">
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col gap-16">
-        <div className="w-72 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <Logo />
-          </a>
-          {/* input */}
-          <div className="relative flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start mt-4">
-            <div className="relative sm:w-auto ">
-              <input
-                type="text"
-                id="footer-field"
-                name="footer-field"
-                placeholder="Enter Your Email"
-                className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-gray-60 py-4 px-14 leading-8 transition-colors duration-200 ease-in-out"
-              />
-              <div
-                className="absolute inset-y-0 left-0 pl-4  
-                    flex items-center  
-                    pointer-events-none"
-              >
-                <IconMail />
-              </div>
-              <div
-                className="absolute inset-y-0 right-0 pr-4  
-                    flex items-center  
-                    pointer-events-none"
-              >
-                <IconSend />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Categories Section */}
-        <div className="flex-grow flex flex-wrap md:mt-0 mt-10 md:text-left text-center">
-          {links.map((link) => (
-            <FooterCategory data={link} />
-          ))}
-        </div>
-      </div>
+      <FooterLinks />
       {/* social links */}
       <div className="bg-gray-10">
-        <div className="container mx-auto py-6 px-5 flex flex-wrap flex-col sm:flex-row items-center">
-          <p className="text-white text-base text-center sm:text-left">
-            @2023 Estatein. All Rights Reserved.
+        <div className="container mx-auto py-6 flex flex-wrap flex-col-reverse gap-y-5 sm:flex-row items-center">
+          <div className="flex flex-col lg:flex-row gap-y-2.5 items-center lg:gap-x-10">
+            <p className="text-white text-base text-center">
+              @2023 Estatein. All Rights Reserved.
+            </p>
             <a
               href="#"
               rel="noopener noreferrer"
@@ -59,9 +23,9 @@ export default function Footer() {
             >
               Terms & Conditions
             </a>
-          </p>
+          </div>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start items-center gap-2">
-            <a className="text-white w-12 h-12 rounded-full bg-gray-08 flex justify-center items-center">
+            <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -73,7 +37,7 @@ export default function Footer() {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="text-white w-12 h-12 rounded-full bg-gray-08 flex justify-center items-center">
+            <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -85,7 +49,7 @@ export default function Footer() {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a className="text-white w-12 h-12 rounded-full bg-gray-08 flex justify-center items-center">
+            <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -99,7 +63,7 @@ export default function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="text-white w-12 h-12 rounded-full bg-gray-08 flex justify-center items-center">
+            <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -120,5 +84,49 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+  );
+}
+
+function FooterLinks() {
+  return (
+    <div className="container py-12 px-4 lg:px-0 lg:py-24 mx-auto flex items-start flex-col lg:flex-row">
+      <div className="w-full xl:w-2/6 flex-shrink-0  relative">
+        <a className="flex font-medium lg:items-center justify-start text-white h-8 2xl:h-12">
+          <Logo />  
+        </a>
+        {/* input */}
+        <div className="relative flex items-end  mt-4">
+          <div className="relative w-full lg:w-[80%]">
+            <input
+              type="text"
+              id="footer-field"
+              name="footer-field"
+              placeholder="Enter Your Email"
+              className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-gray-60 py-4 px-16 leading-8 transition-colors duration-200 ease-in-out"
+            />
+            <div
+              className="absolute inset-y-0 left-0 pl-4  
+                flex items-center  
+                pointer-events-none"
+            >
+              <IconMail />
+            </div>
+            <div
+              className="absolute inset-y-0 right-0 pr-4  
+                flex items-center  
+                pointer-events-none"
+            >
+              <IconSend />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Categories Section */}
+      <div className="w-full xl:w-4/6 flex lg:justify-end flex-wrap lg:flex-nowrap mt-10 lg:mt-0 text-left lg:gap-x-16">
+        {links.map((link) => (
+          <FooterCategory data={link} />
+        ))}
+      </div>
+    </div>
   );
 }

@@ -3,8 +3,8 @@ import React from "react";
 export default function IconStore() {
   return (
     <svg
-      width="83"
-      height="82"
+      width="auto"
+      height="auto"
       viewBox="0 0 83 82"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

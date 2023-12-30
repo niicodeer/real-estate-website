@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <HeaderNav />
-      <main>
+      <main className="px-4 md:px-0">
       <Outlet />
       </main>
       <Footer />

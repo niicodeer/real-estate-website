@@ -1,4 +1,4 @@
-export default function AbstractDesign() {
+export default function AbstractWaves() {
   return (
     <svg
       width="920"

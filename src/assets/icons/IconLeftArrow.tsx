@@ -4,8 +4,8 @@ type ButtonProp = {
 export default function IconLeftArrow({ disabled }: ButtonProp) {
   return (
     <svg
-      width="30"
-      height="30"
+      width="auto"
+      height="auto"
       viewBox="0 0 30 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
