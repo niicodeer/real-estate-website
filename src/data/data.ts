@@ -24,6 +24,28 @@ export type PropertyType = {
   price: string;
 };
 
+export type CardStepProps = {
+  number: string;
+  title: string;
+  text: string;
+};
+export type CardMembersProps = {
+  image: string;
+  twitter: string;
+  name: string;
+  ocuppation: string;
+};
+
+export type CardClientsProps = {
+  key?:number,
+  currentIndex?:number,
+  since?: string;
+  title?: string;
+  domain?: string;
+  category?: string;
+  text?: string;
+};
+
 export const testimonials: Array<TestimonialType> = [
   {
     stars: 5,
@@ -105,5 +127,96 @@ export const properties: PropertyType[] = [
       place: "Villa",
     },
     price: "$550,000",
+  },
+];
+
+export const steps: CardStepProps[] = [
+  {
+    number: "01",
+    title: "Discover a World of Possibilities",
+    text: "Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location.",
+  },
+  {
+    number: "02",
+    title: "Narrowing Down Your Choices",
+    text: "Once you've found properties that catch your eye, save them to your account or make a shortlist. This allows you to compare and revisit your favorites as you make your decision.",
+  },
+  {
+    number: "03",
+    title: "Personalized Guidance",
+    text: "Have questions about a property or need more information? Our dedicated team of real estate experts is just a call or message away.",
+  },
+  {
+    number: "04",
+    title: "See It for Yourself",
+    text: "Arrange viewings of the properties you're interested in. We'll coordinate with the property owners and accompany you to ensure you get a firsthand look at your potential new home.",
+  },
+  {
+    number: "05",
+    title: "Making Informed Decisions",
+    text: "Before making an offer, our team will assist you with due diligence, including property inspections, legal checks, and market analysis. We want you to be fully informed.",
+  },
+  {
+    number: "06",
+    title: "Getting the Best Deal",
+    text: "We'll help you negotiate the best terms and prepare your offer. Our goal is to secure the property at the right price and on favorable terms.",
+  },
+];
+
+export const members: CardMembersProps[] = [
+  {
+    image: "src\\assets\\images\\member-max-mitchel.png",
+    twitter: "#",
+    name: "Max Mitchell",
+    ocuppation: "Founder",
+  },
+  {
+    image: "src\\assets\\images\\member-sarah-johnson.png",
+    twitter: "#",
+    name: "Sarah Johnson",
+    ocuppation: "Chief Real Estate Officer",
+  },
+  {
+    image: "src\\assets\\images\\member-david-brown.png",
+    twitter: "#",
+    name: "David Brown",
+    ocuppation: "Head of Property Management",
+  },
+  {
+    image: "src\\assets\\images\\member-michael-turner.png",
+    twitter: "#",
+    name: "Michael Turner",
+    ocuppation: "Legal Counsel",
+  },
+];
+
+export const clients:CardClientsProps[] = [
+  {
+    since: "2019",
+    title: "ABC Corporation",
+    domain: "Commercial Real Estate",
+    category: "Luxury Home Development",
+    text: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+  },
+  {
+    since: "2018",
+    title: "GreenTech Enterprises",
+    domain: "Commercial Real Estate",
+    category: "Retail Space",
+    text: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
+  },
+  {
+    since: "2019",
+    title: "ABC Corporation",
+    domain: "Commercial Real Estate",
+    category: "Luxury Home Development",
+    text: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+  },
+  {
+    since: "2018",
+    title: "GreenTech Enterprises",
+    domain: "Commercial Real Estate",
+    category: "Retail Space",
+    text: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
   },
 ];

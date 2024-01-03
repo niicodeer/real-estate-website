@@ -92,7 +92,7 @@ function FooterLinks() {
     <div className="container py-12 px-4 lg:px-0 lg:py-24 mx-auto flex items-start flex-col lg:flex-row">
       <div className="w-full xl:w-2/6 flex-shrink-0  relative">
         <a className="flex font-medium lg:items-center justify-start text-white h-8 2xl:h-12">
-          <Logo />  
+          <Logo />
         </a>
         {/* input */}
         <div className="relative flex items-end  mt-4">
@@ -102,19 +102,19 @@ function FooterLinks() {
               id="footer-field"
               name="footer-field"
               placeholder="Enter Your Email"
-              className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-gray-60 py-4 px-16 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-gray-60 py-5 px-16 leading-8 transition-colors duration-200 ease-in-out"
             />
             <div
-              className="absolute inset-y-0 left-0 pl-4  
-                flex items-center  
+              className="absolute p-1 w-7 h-7 xl:w-8 xl:h-8 2xl:w-9 2xl:h-9 inset-y-0 left-5 top-5
+              flex items-center justify-center 
                 pointer-events-none"
             >
               <IconMail />
             </div>
             <div
-              className="absolute inset-y-0 right-0 pr-4  
-                flex items-center  
-                pointer-events-none"
+              className="absolute p-1 w-8 h-8 xl:w-9 xl:h-9 2xl:w-10 2xl:h-10 inset-y-0 right-5 top-5 
+                flex items-center justify-center 
+                cursor-pointer"
             >
               <IconSend />
             </div>

@@ -3,11 +3,11 @@ import IconBuilding from "../assets/icons/IconBuilding";
 import IconMoney from "../assets/icons/IconMoney";
 import IconStore from "../assets/icons/IconStore";
 import FeatureSectionItem from "./FeatureSectionItem";
+import FeaturesContainer from "./FeaturesContainer";
 
 export default function FeaturesSection() {
   return (
-    <section>
-      <div className="flex flex-wrap text-center border-8 border-gray-15 rounded-xl lg:rounded-none">
+      <FeaturesContainer>
         <FeatureSectionItem title="Find Your Dream Home">
           <div className="w-12 h-12 lg:w-14 lg:h-14 2xl:w-20 2xl:h-20">
             <IconStore />
@@ -28,7 +28,6 @@ export default function FeaturesSection() {
             <IconSun />
           </div>
         </FeatureSectionItem>
-      </div>
-    </section>
+      </FeaturesContainer>
   );
 }

@@ -1,8 +1,8 @@
 export default function AbstractWaves() {
   return (
     <svg
-      width="920"
-      height="814"
+      width="auto"
+      height="auto"
       viewBox="0 0 920 814"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

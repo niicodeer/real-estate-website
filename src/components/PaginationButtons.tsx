@@ -3,20 +3,20 @@ import NextButton from './NextButton'
 import { PaginationFooterProps } from './PaginationFooter'
 
 
-export default function PaginationButtons({min, max}:PaginationFooterProps) {
+export default function PaginationButtons({min, max, prev, next}:PaginationFooterProps) {
   return (
-    <div className='flex gap-x-2.5 items-center '>
-      <PrevButton disabled />
+    <div className='flex gap-x-2.5 items-center justify-between'>
+      <PrevButton disabled={min<=1} onClick={prev}/>
       <div className="lg:hidden inline-flex gap-x-1">
         <span className="text-white text-sm font-medium leading-[30px]">
           {min < 10 ? "0" + min : min}
         </span>
         <span className="text-gray-60 text-sm font-medium leading-[30px]">
           {" "}
-          of {max}
+          of {max < 10 ? "0" + max : max}
         </span>
       </div>
-      <NextButton />
+      <NextButton disabled={min===max} onClick={next} />
     </div>
   )
 }

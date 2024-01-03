@@ -4,7 +4,7 @@ import AbstractWaves from "../assets/AbstractWaves";
 
 export default function HeroSection() {
   return (
-    <section className="text-white w-full ">
+    <section className="text-white w-full 2xl:max-w-[1600px] 2xl:mx-auto">
       <div className="w-full flex lg:flex-row flex-col-reverse lg:justify-between 2xl:gap-24 lg:gap-24 gap-8 relative">
         <div className="xl:max-w-[610px] 2xl:max-w-[920px] w-full flex flex-col md:items-start mb-16 md:mb-0 2xl:pl-32 lg:pl-20 justify-center text-left">
           <h1 className="text-3xl 2xl:text-6xl lg:text-5xl mb-6 font-semibold text-white">

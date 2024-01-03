@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <FeaturesSection />
+      <div className="max-w-[1920px] mt-1">
+        <FeaturesSection />
+      </div>
       <SectionContainer>
         <div className="w-full">
           <SectionHeader
