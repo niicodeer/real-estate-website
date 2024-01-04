@@ -1,7 +1,6 @@
 import FeaturesSection from "../components/FeaturesSection";
 import HeroSection from "../components/HeroSection";
 import PaginationFooter from "../components/PaginationFooter";
-import SectionCTA from "../components/SectionCTA";
 import SectionContainer from "../components/SectionContainer";
 import SectionFaqs from "../components/SectionFaqs";
 import SectionHeader from "../components/SectionHeader";
@@ -47,7 +46,6 @@ export default function Home() {
         <SectionFaqs />
         <PaginationFooter min={1} max={10} buttonText="View All FAQ’s" />
       </SectionContainer>
-      <SectionCTA />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import CardContainer from "./CardContainer";
 
-type CardAchievmentProps = {
+export type CardAchievmentProps = {
   title: string;
   text: string;
 };

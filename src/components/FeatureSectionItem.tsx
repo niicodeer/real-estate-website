@@ -12,7 +12,7 @@ export default function FeatureSectionItem({
   title,
 }: SectionItemProps) {
   return (
-    <div className="p-2.5 lg:p-4 w-1/2 lg:w-1/4 rounded-lg lg:rounded-none">
+    <div className="min-w-[180px] rounded-lg lg:rounded-none flex-1 ">
       <CardContainer>
         <div className="relative px-3 py-5 lg:px-4 lg:py-8 2xl:px-5  2xl:py-10 bg-gray-10 flex items-center flex-col gap-4">
           <div className="absolute top-5 right-5 w-6 h-6 2xl:w-8 2xl:h-8">

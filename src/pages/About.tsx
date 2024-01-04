@@ -1,7 +1,6 @@
 import AbstractWaves from "../assets/AbstractWaves";
 import SectionHeader from "../components/SectionHeader";
 import heroImage from "../assets/images/about-hero.png";
-import SectionCTA from "../components/SectionCTA";
 import SectionContainer from "../components/SectionContainer";
 import SectionValues from "../components/SectionValues";
 import SectionAchievments from "../components/SectionAchievments";
@@ -105,7 +104,6 @@ export default function About() {
         />
         <SectionClients />
       </SectionContainer>
-      <SectionCTA />
     </>
   );
 }
