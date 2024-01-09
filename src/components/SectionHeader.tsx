@@ -26,7 +26,7 @@ export default function SectionHeader({
       <div
         className={`${
           horizontal ? " " : "lg:w-4/5"
-        } w-full 2xl:mb-6 lg:mb-4 mb-0 xl:max-w-[1200px]`}
+        } w-full 2xl:mb-6 lg:mb-4 mb-0 xl:max-w-[1000px] 2xl:max-w-[1200px]`}
       >
         <h1 className="text-3xl 2xl:text-5xl lg:text-4xl font-semibold mb-2 text-white xl:leading-[150%] 2xl:mb-3.5">
           {title}
@@ -36,7 +36,7 @@ export default function SectionHeader({
         </p>
       </div>
       {buttonText ? (
-        <div className="hidden lg:self-end">
+        <div className="hidden lg:flex lg:self-end">
           <Button text={buttonText} secondary />
         </div>
       ) : null}

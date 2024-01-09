@@ -2,7 +2,7 @@ import Button from "./Button";
 import PaginationButtons from "./PaginationButtons";
 export type PaginationFooterProps = {
   min: number;
-  max: number;
+  max: number[];
   buttonText?: string;
   next?:()=>void;
   prev?:()=>void;
@@ -22,7 +22,7 @@ export default function PaginationFooter({
         </span>
         <span className="text-gray-60 text-xl font-medium leading-[30px]">
           {" "}
-          of {max < 10 ? "0" + max : max}
+          of {max[0] < 10 ? "0" + max[0] : max[0]}
         </span>
       </div>
       {buttonText ? (

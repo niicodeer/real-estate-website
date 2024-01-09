@@ -11,24 +11,19 @@ import IconUnion from "../assets/icons/IconUnion";
 import CardService from "../components/CardService";
 import CardWithAbstractBg from "../components/CardWithAbstractBg";
 import FeaturesSection from "../components/FeaturesSection";
+import GradientHero from "../components/GradientHero";
 import SectionContainer from "../components/SectionContainer";
 import SectionHeader from "../components/SectionHeader";
 
 export default function Services() {
   return (
     <>
-      <section className="text-white bg-gradient-to-r from-gray-15 to-[30%] border border-y border-gray-15">
-        <div className="max-w-[1920px] 2xl:mx-auto px-4 py-12 xl:pl-20 xl:pr-48 xl:py-24 2xl:pl-40 2xl:pr-[400px] 2xl:pt-[150px] flex flex-col gap-2.5 2xl:gap-4">
-          <div className="text-3xl xl:text-[38px] 2xl:text-5xl font-semibold leading-[42px]">
-            Elevate Your Real Estate Experience
-          </div>
-          <div className="text-gray-60 text-sm xl:text-[16px] 2xl:text-base font-medium leading-[150%]">
-            Welcome to Estatein, where your real estate aspirations meet expert
-            guidance. Explore our comprehensive range of services, each designed
-            to cater to your unique needs and dreams.
-          </div>
-        </div>
-      </section>
+      <GradientHero
+        title="Elevate Your Real Estate Experience"
+        text="Welcome to Estatein, where your real estate aspirations meet expert
+          guidance. Explore our comprehensive range of services, each designed
+          to cater to your unique needs and dreams."
+      />
       <div className="max-w-[1920px] mt-1 2xl:mx-auto">
         <FeaturesSection />
       </div>

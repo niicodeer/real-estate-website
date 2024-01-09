@@ -13,10 +13,10 @@ export default function PaginationButtons({min, max, prev, next}:PaginationFoote
         </span>
         <span className="text-gray-60 text-sm font-medium leading-[30px]">
           {" "}
-          of {max < 10 ? "0" + max : max}
+          of {max[0] < 10 ? "0" + max[0] : max[0]}
         </span>
       </div>
-      <NextButton disabled={min===max} onClick={next} />
+      <NextButton disabled={min===max[0] || min+max[1]>max[0]} onClick={next} />
     </div>
   )
 }

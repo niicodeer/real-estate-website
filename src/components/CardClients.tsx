@@ -3,14 +3,19 @@ import IconThunder from "../assets/icons/IconThunder";
 import { CardClientsProps } from "../data/data";
 import Button from "./Button";
 import CardContainer from "./CardContainer";
-import FeaturesContainer from "./FeaturesContainer";
+import CardContainerShadow from "./CardContainerShadow";
 import SeparatorLine from "./SeparatorLine";
 
-
-export default function CardClients({since, title, domain, category, text}:CardClientsProps) {
+export default function CardClients({
+  since,
+  title,
+  domain,
+  category,
+  text,
+}: CardClientsProps) {
   return (
-    <FeaturesContainer>
-      <CardContainer>
+    <CardContainerShadow rounded>
+      <>
         <div className="flex flex-col min-w-[357px] w-full p-6 xl:p-10 2xl:p-12 gap-7 2xl:gap-10 ">
           <div className="flex flex-col xl:flex-row xl:justify-between gap-5">
             <div className="flex flex-col items-start gap-y-1">
@@ -69,7 +74,7 @@ export default function CardClients({since, title, domain, category, text}:CardC
             </div>
           </CardContainer>
         </div>
-      </CardContainer>
-    </FeaturesContainer>
+      </>
+    </CardContainerShadow>
   );
 }

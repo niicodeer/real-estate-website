@@ -1,14 +1,15 @@
 import IconCap from "../assets/icons/IconCap";
 import IconStar from "../assets/icons/IconStar";
-import FeaturesContainer from "./FeaturesContainer";
+import CardContainerShadow from "./CardContainerShadow";
 import IconPeople from "./IconPeople";
 import SectionValueItem from "./SectionValueItem";
 import SeparatorLine from "./SeparatorLine";
 
 export default function SectionValues() {
   return (
-    <section >
-      <FeaturesContainer>
+    <div >
+      <CardContainerShadow rounded>
+        <>
         {/* render for mobile and tablet */}
         <div className="p-6 flex gap-5 flex-col xl:hidden rounded-xl">
           <SectionValueItem
@@ -41,7 +42,7 @@ export default function SectionValues() {
         </div>
         {/* render if >1280 screen */}
         <div className="hidden p-6 xl:flex xl:p-12 2xl:p-[60px] xl:gap-6 2xl:gap-7 flex-col flex-wrap rounded-xl">
-          <div className="flex xl:gap-6 2xl:gap-7">
+          <div className="flex xl:gap-6 2xl:gap-7 min-h-32">
             <SectionValueItem
               title="Trust"
               text="Trust is the cornerstone of every successful real estate transaction."
@@ -57,7 +58,7 @@ export default function SectionValues() {
             </SectionValueItem>
           </div>
           <SeparatorLine />
-          <div className="flex xl:gap-6 2xl:gap-7">
+          <div className="flex xl:gap-6 2xl:gap-7 min-h-32">
             <SectionValueItem
               title="Client-Centric"
               text="Your dreams and needs are at the center of our universe. We listen, understand."
@@ -73,7 +74,8 @@ export default function SectionValues() {
             </SectionValueItem>
           </div>
         </div>
-      </FeaturesContainer>
-    </section>
+      </>
+      </CardContainerShadow>
+    </div>
   );
 }

@@ -47,8 +47,8 @@ export default function About() {
               </div>
             </div>
           </div>
-          {/* leftSide */}
-          <div className="relative xl:max-w-[610px] 2xl:max-w-[920px] 2xl:h-[546px] w-full rounded-xl my-10 lg:my-0 bg-gray-10 z-0 self-end border border-gray-15">
+          {/* rightSide */}
+          <div className="relative xl:max-w-[610px] 2xl:max-w-[920px] 2xl:h-[546px] w-full rounded-xl my-10 lg:my-0 bg-gray-10 z-0 self-end border-2 border-gray-15">
             <div className="overflow-hidden relative rounded-xl w-full h-full">
               <img
                 className="object-cover object-center rounded z-10 h-[310px] xl:h-auto"

@@ -13,6 +13,7 @@ export type FaqType = {
 };
 
 export type PropertyType = {
+  epigraph: string;
   title: string;
   description: string;
   image: string;
@@ -37,8 +38,8 @@ export type CardMembersProps = {
 };
 
 export type CardClientsProps = {
-  key?:number,
-  currentIndex?:number,
+  key?: number;
+  currentIndex?: number;
   since?: string;
   title?: string;
   domain?: string;
@@ -93,6 +94,7 @@ export const faqs: Array<FaqType> = [
 
 export const properties: PropertyType[] = [
   {
+    epigraph: "Coastal Escapes - Where Waves Beckon",
     title: "Seaside Serenity Villa",
     description:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
@@ -105,6 +107,7 @@ export const properties: PropertyType[] = [
     price: "$550,000",
   },
   {
+    epigraph: "Urban Oasis - Life in the Heart of the City",
     title: "Metropolitan Haven",
     description:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
@@ -117,6 +120,46 @@ export const properties: PropertyType[] = [
     price: "$550,000",
   },
   {
+    epigraph: "Countryside Charm - Escape to Nature's Embrace",
+    title: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
+    image: "src\\assets\\images\\prop3.png",
+    ammenities: {
+      bed: "3-Bedroom",
+      bath: "3-Bathroom",
+      place: "Villa",
+    },
+    price: "$550,000",
+  },
+  {
+    epigraph: "Coastal Escapes - Where Waves Beckon",
+    title: "Seaside Serenity Villa",
+    description:
+      "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
+    image: "src\\assets\\images\\prop1.png",
+    ammenities: {
+      bed: "4-Bedroom",
+      bath: "3-Bathroom",
+      place: "Villa",
+    },
+    price: "$550,000",
+  },
+  {
+    epigraph: "Urban Oasis - Life in the Heart of the City",
+    title: "Metropolitan Haven",
+    description:
+      "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
+    image: "src\\assets\\images\\prop2.png",
+    ammenities: {
+      bed: "2-Bedroom",
+      bath: "2-Bathroom",
+      place: "Villa",
+    },
+    price: "$550,000",
+  },
+  {
+    epigraph: "Countryside Charm - Escape to Nature's Embrace",
     title: "Rustic Retreat Cottage",
     description:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
@@ -190,7 +233,7 @@ export const members: CardMembersProps[] = [
   },
 ];
 
-export const clients:CardClientsProps[] = [
+export const clients: CardClientsProps[] = [
   {
     since: "2019",
     title: "ABC Corporation",

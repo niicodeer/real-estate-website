@@ -25,7 +25,6 @@ export default function Home() {
           />
           {/* cards */}
           <SectionProperties />
-          <PaginationFooter min={1} max={60} buttonText="View All Properties" />
         </div>
       </SectionContainer>
       <SectionContainer>

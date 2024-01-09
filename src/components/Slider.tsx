@@ -6,6 +6,7 @@ type SliderProps = {
   data: CardClientsProps[]; // Ajusta el tipo según la estructura de tus datos
   children: ReactElement;
   elementsPerView?: number;
+  buttonText?:string
 };
 export default function Slider({ children, data, elementsPerView = 1 }: SliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,11 +27,11 @@ export default function Slider({ children, data, elementsPerView = 1 }: SliderPr
   
   return (
     <>
-      <div className="w- h-full flex overflow-hidden">
-        <div className="flex flex-row gap-8">
+      <div className="w-full h-full flex overflow-hidden">
+        <div className="flex flex-row gap-8 w-full justify-start">
           {dataSlice.map((el, i) => (
             <div
-              className={`${i < 2 ? "flex flex-1 xl:max-w-[50%]" : "hidden"} `}
+              className={`${i < elementsPerView ? "flex flex-1 xl:max-w-[50%]" : "hidden"} `}
               key={i}
             >
               {cloneElement(children as ReactElement, el)}
@@ -39,8 +40,8 @@ export default function Slider({ children, data, elementsPerView = 1 }: SliderPr
         </div>
       </div>
       <PaginationFooter
-        min={currentIndex + 1}
-        max={data.length}
+        min={(currentIndex + 1) }
+        max={[data.length, elementsPerView]}
         next={() => handleNext()}
         prev={() => handlePrev()}
       />

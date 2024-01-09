@@ -6,6 +6,7 @@ export type ButtonProp = {
 export default function PrevButton({ disabled, onClick }: ButtonProp) {
   return (
     <button
+    disabled={disabled}
       onClick={onClick}
       className={`w-11 lg:w-[58px] h-11 lg:h-[58px] p-2.5 lg:p-3.5 rounded-full ${
         disabled ? "bg-transparent " : "bg-gray-10 text-white"
