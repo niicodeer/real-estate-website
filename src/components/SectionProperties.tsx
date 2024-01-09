@@ -8,11 +8,4 @@ export default function SectionProperties() {
       <CardProperty />
     </Slider>
   );
-  {
-    /* <div className="flex flex-wrap justify-between overflow-hidden">
-      {properties.map((prop, i) => (
-        <CardProperty key={i} data={prop} secondary />
-      ))}
-    </div> */
-  }
 }

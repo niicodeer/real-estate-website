@@ -1,6 +1,5 @@
 import FeaturesSection from "../components/FeaturesSection";
 import HeroSection from "../components/HeroSection";
-import PaginationFooter from "../components/PaginationFooter";
 import SectionContainer from "../components/SectionContainer";
 import SectionFaqs from "../components/SectionFaqs";
 import SectionHeader from "../components/SectionHeader";
@@ -23,7 +22,6 @@ export default function Home() {
             through Estatein. Click "View Details" for more information.'
             buttonText="View All Properties"
           />
-          {/* cards */}
           <SectionProperties />
         </div>
       </SectionContainer>
@@ -34,7 +32,6 @@ export default function Home() {
           buttonText="View All Testimonials"
         />
         <SectionTestimonials />
-        <PaginationFooter min={1} max={10} buttonText="View All Testimonials" />
       </SectionContainer>
       <SectionContainer>
         <SectionHeader
@@ -43,7 +40,6 @@ export default function Home() {
           buttonText="View All FAQ’s"
         />
         <SectionFaqs />
-        <PaginationFooter min={1} max={10} buttonText="View All FAQ’s" />
       </SectionContainer>
     </>
   );

@@ -1,6 +1,6 @@
-type StarProps = { purple: boolean };
+type StarProps = { purple?: boolean };
 
-export default function IconStar({ purple }: StarProps) {
+export default function IconStar({ purple=false }: StarProps) {
   return (
     <svg
       width="auto"

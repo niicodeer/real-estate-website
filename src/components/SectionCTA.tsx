@@ -4,7 +4,7 @@ import SquaresPattern2 from "../assets/SquaresPattern2";
 
 export default function SectionCTA() {
   return (
-    <section className="w-full flex justify-center border-y-2 border-gray-15 -mt-12 relative z-0 overflow-hidden">
+    <section className="w-full flex justify-center border-y-2 border-gray-15 -mt-12 relative z-0 overflow-hidden px-4">
       <div className="absolute lg:-left-4 -top-[40%] lg:top-[18%] w-[400px] lg:w-[566px]">
         <SquaresPattern1 />
       </div>

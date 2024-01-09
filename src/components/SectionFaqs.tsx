@@ -1,13 +1,11 @@
-import { faqs } from "../data/data"
-import CardFaq from "./CardFaq"
+import { faqs } from "../data/data";
+import CardFaq from "./CardFaq";
+import Slider from "./Slider";
 
 export default function SectionFaqs() {
   return (
-    <div className="flex flex-wrap justify-between">
-    {faqs.map((faq,i)=>
-    <CardFaq key={i} faq={faq}/>
-    )}
-    
-  </div>
-  )
+    <Slider data={faqs} elementsPerView={3} buttonText="View All FAQ’s">
+      <CardFaq />
+    </Slider>
+  );
 }

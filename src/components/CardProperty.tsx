@@ -2,6 +2,7 @@ import { PropertyType } from "../data/data";
 import AmmenityBadge from "./AmmenityBadge";
 import Button from "./Button";
 import CardContainer from "./CardContainer";
+import TextBadge from "./TextBadge";
 
 type CardPropertyProps = {
   data?: PropertyType;
@@ -21,7 +22,7 @@ type CardPropertyProps = {
 export default function CardProperty({ data,secondary, image, title, description, epigraph, ammenities, price }: CardPropertyProps) {
   return (
     <CardContainer>
-      <div className="w-full p-6 lg:p-7 2xl:p-10 lg:max-w-[410px] 2xl:max-w-[512px]">
+      <div className="w-full p-6 lg:p-7 2xl:p-10 min-w-[360px] lg:max-w-[410px] 2xl:max-w-[512px]">
         <div className="mb-4 xl:mb-6 2xl:mb-7">
           <img
             className="h-52 lg:h-64 2xl:h-80 rounded-xl w-full object-cover object-center"
@@ -31,7 +32,7 @@ export default function CardProperty({ data,secondary, image, title, description
         </div>
         <div className="flex flex-col gap-5 lg:gap-7">
           <div>
-            {secondary && <div className="mb-4 2xl:mb-5"><AmmenityBadge epigraph={data?.epigraph || epigraph} /></div>}
+            {secondary && <div className="mb-4 2xl:mb-5"><TextBadge text={data?.epigraph || epigraph} /></div>}
             <h2 className="text-base lg:text-xl 2xl:text-2xl text-white font-semibold mb-2">
               {data?.title ||title}
             </h2>
@@ -43,7 +44,7 @@ export default function CardProperty({ data,secondary, image, title, description
             </p>
           </div>
           {!secondary && (
-            <div className="flex w-full justify-between">
+            <div className="flex w-full flex-wrap gap-1">
               {data?.ammenities.bed || ammenities?.bed && (
                 <AmmenityBadge bed={data?.ammenities.bed || ammenities?.bed} />
               )}
