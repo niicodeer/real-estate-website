@@ -12,7 +12,7 @@ export default function HeroSection() {
             <br className="lg:inline-block" />
             Property with Estatein
           </h1>
-          <p className="mb-16 leading-relaxed lg:text-[16px] 2xl:text-base text-sm text-gray-60">
+          <p className="mb-16 leading-relaxed lg:text-base 2xl:text-lg text-sm text-gray-60">
             Your journey to finding the perfect property begins here. Explore
             our listings to find the home that matches your dreams.
           </p>
@@ -26,7 +26,7 @@ export default function HeroSection() {
               <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                 200+
               </h2>
-              <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+              <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                 Happy Customers
               </p>
             </div>
@@ -34,7 +34,7 @@ export default function HeroSection() {
               <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                 10k+
               </h2>
-              <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+              <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                 Properties For Clients
               </p>
             </div>
@@ -42,7 +42,7 @@ export default function HeroSection() {
               <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                 16+
               </h2>
-              <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+              <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                 Years of Experience
               </p>
             </div>

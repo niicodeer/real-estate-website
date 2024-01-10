@@ -11,7 +11,7 @@ export default function FooterCategoryItem({
     <li>
       <a
         href={href}
-        className="text-sm lg:text-[16px] 2xl:text-base text-white"
+        className="text-sm lg:text-base 2xl:text-lg text-white"
       >
         {title}
       </a>

@@ -15,7 +15,7 @@ export default function SectionFilters() {
           <label className="w-full xl:w-[1100px] 2xl:w-[1300px] h-16 xl:h-20 2xl:h-[100px] px-6 py-5 bg-gray-08 rounded-lg xl:rounded-t-xl border border-gray-15 justify-start items-center gap-[50px] inline-flex">
             <input
               placeholder="Search a Property"
-              className="flex-1 bg-transparent text-white text-[16px] xl:text-lg 2xl:text-2xl font-medium leading-9 outline-gray-10 border-none"
+              className="flex-1 bg-transparent text-white text-base xl:text-lg 2xl:text-2xl font-medium leading-9 outline-gray-10 border-none"
             />
             <Button text="Find Property" primary icon={<IconSearch />} />
           </label>

@@ -33,10 +33,10 @@ export default function CardProperty({ data,secondary, image, title, description
         <div className="flex flex-col gap-5 lg:gap-7">
           <div>
             {secondary && <div className="mb-4 2xl:mb-5"><TextBadge text={data?.epigraph || epigraph} /></div>}
-            <h2 className="text-base lg:text-xl 2xl:text-2xl text-white font-semibold mb-2">
+            <h2 className="text-lg lg:text-xl 2xl:text-2xl text-white font-semibold mb-2">
               {data?.title ||title}
             </h2>
-            <p className="leading-relaxed text-sm lg:text-[16px] 2xl:text-base text-gray-60">
+            <p className="leading-relaxed text-sm lg:text-base 2xl:text-lg text-gray-60">
               {data?.description || description}{" "}
               <a href="#" className="text-white underline">
                 Read More
@@ -58,10 +58,10 @@ export default function CardProperty({ data,secondary, image, title, description
           )}
           <div className="flex justify-between">
             <div>
-              <p className="text-gray-60 text-sm lg:text-[16px] 2xl:text-base">
+              <p className="text-gray-60 text-sm lg:text-base 2xl:text-lg">
                 Price
               </p>
-              <h3 className="text-white text-base lg:text-xl 2xl:text-2xl font-semibold">
+              <h3 className="text-white text-lg lg:text-xl 2xl:text-2xl font-semibold">
                 {data?.price || price}
               </h3>
             </div>

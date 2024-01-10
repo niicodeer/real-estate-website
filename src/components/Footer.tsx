@@ -12,13 +12,13 @@ export default function Footer() {
       <div className="bg-gray-10">
         <div className="container mx-auto py-6 flex flex-wrap flex-col-reverse gap-y-5 sm:flex-row items-center">
           <div className="flex flex-col lg:flex-row gap-y-2.5 items-center lg:gap-x-10">
-            <p className="text-white text-base text-center">
+            <p className="text-white text-lg text-center">
               @2023 Estatein. All Rights Reserved.
             </p>
             <a
               href="#"
               rel="noopener noreferrer"
-              className="text-white ml-8 text-base"
+              className="text-white ml-8 text-lg"
               target="_blank"
             >
               Terms & Conditions
@@ -102,7 +102,7 @@ function FooterLinks() {
               id="footer-field"
               name="footer-field"
               placeholder="Enter Your Email"
-              className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-gray-60 py-5 px-16 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full rounded-xl border border-gray-15 bg-gray-08 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-lg outline-none text-gray-60 py-5 px-16 leading-8 transition-colors duration-200 ease-in-out"
             />
             <div
               className="absolute p-1 w-7 h-7 xl:w-8 xl:h-8 2xl:w-9 2xl:h-9 inset-y-0 left-5 top-5

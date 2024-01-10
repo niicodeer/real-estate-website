@@ -13,7 +13,7 @@ export default function SelectInput({
   icon,
 }: InputProps & SelectProps) {
   const className =
-    "h-14 2xl:h-[72px] w-full  rounded-lg bg-gray-08 border border-gray-15 py-4 px-5 2xl:py-5 text-white 2xl:text-base";
+    "h-14 2xl:h-[72px] w-full  rounded-lg bg-gray-08 border border-gray-15 py-4 px-5 2xl:py-5 text-white 2xl:text-lg";
 
   return (
     <div className="content-select relative xl:max-w-[232px] 2xl:max-w-[300px] w-full">

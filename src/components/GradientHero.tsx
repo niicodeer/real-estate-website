@@ -9,7 +9,7 @@ export default function GradientHero({title, text}:GradientHeroProps) {
         <div className="text-3xl xl:text-[38px] 2xl:text-5xl font-semibold leading-[42px]">
           {title}
         </div>
-        <div className="text-gray-60 text-sm xl:text-[16px] 2xl:text-base font-medium leading-[150%]">
+        <div className="text-gray-60 text-sm xl:text-base 2xl:text-lg font-medium leading-[150%]">
           {text}
         </div>
       </div>

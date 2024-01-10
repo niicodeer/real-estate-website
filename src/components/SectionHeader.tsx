@@ -31,7 +31,7 @@ export default function SectionHeader({
         <h1 className="text-3xl 2xl:text-5xl lg:text-4xl font-semibold mb-2 text-white xl:leading-[150%] 2xl:mb-3.5">
           {title}
         </h1>
-        <p className="w-full leading-relaxed font-medium text-gray-60 text-sm lg:text-[16px] 2xl:text-base">
+        <p className="w-full leading-relaxed font-medium text-gray-60 text-sm lg:text-base 2xl:text-lg">
           {text}
         </p>
       </div>

@@ -20,8 +20,8 @@ export default function CardTestimonial({ stars, title, text, image, name, city 
           ))}
         </div>
         <div className="min-h-32 lg:min-h-40">
-          <h2 className="text-base lg:text-xl 2xl:text-2xl font-semibold mb-2 2xl:mb-4">{title}</h2>
-          <p className="text-sm lg:text-[16px] 2xl:text-base leading-relaxed">{text}</p>
+          <h2 className="text-lg lg:text-xl 2xl:text-2xl font-semibold mb-2 2xl:mb-4">{title}</h2>
+          <p className="text-sm lg:text-base 2xl:text-lg leading-relaxed">{text}</p>
         </div>
         <div className="flex gap-3 items-center">
           <img
@@ -29,8 +29,8 @@ export default function CardTestimonial({ stars, title, text, image, name, city 
             className="object-contain w-[50px] h-[50px] lg:w-16 lg:h-16 rounded-full"
           />
           <div>
-            <h3 className="text-[16px] lg:text-base 2xl:text-xl font-medium">{name}</h3>
-            <span className="text-sm lg:text-[16px] 2xl:text-base text-gray-60 font-medium">
+            <h3 className="text-base lg:text-lg 2xl:text-xl font-medium">{name}</h3>
+            <span className="text-sm lg:text-base 2xl:text-lg text-gray-60 font-medium">
               {city}
             </span>
           </div>

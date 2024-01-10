@@ -17,7 +17,7 @@ function HeaderNav() {
           <IconMenuHamburguer onClick={() => setOpen(!open)} open={open} />
         </div>
         <div className={`lg:flex flex-1 justify-end ${open ? 'absolute top-14 flex flex-col items-end gap-y-12 p-8 bg-gray-10 w-full':'hidden' }`}>
-          <nav className={`flex w-full text-base gap-8 lg:flex-1 ${open ? 'flex-col items-center' : 'items-center justify-center'}`}>
+          <nav className={`flex w-full text-lg gap-8 lg:flex-1 ${open ? 'flex-col items-center' : 'items-center justify-center'}`}>
             <NavLink
               to={"/"}
               className={({ isActive }) =>

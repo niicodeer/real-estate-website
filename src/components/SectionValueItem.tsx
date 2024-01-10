@@ -13,11 +13,11 @@ export default function SectionValueItem({title, text, borderIcon=false, bigIcon
         <div className={`h-12 w-12 xl:h-[60px] xl:w-[60px] 2xl:h-[74px] 2xl:w-[74px] ${ borderIcon ? "border border-purple-60 rounded-full" : ""} ${bigIcon ? " ":" p-3 xl:p-4 2xl:p-5 "}`}>
           {children}
         </div>
-        <h2 className="text-white font-semibold text-base xl:text-xl 2xl:text-2xl">
+        <h2 className="text-white font-semibold text-lg xl:text-xl 2xl:text-2xl">
           {title}
         </h2>
       </div>
-      <p className="text-gray-60 text-sm xl:text-[16px] 2xl:text-base ">
+      <p className="text-gray-60 text-sm xl:text-base 2xl:text-lg ">
         {text}
       </p>
     </div>

@@ -7,6 +7,7 @@ import About from "./pages/About.tsx";
 import Properties from "./pages/Properties.tsx";
 import Services from "./pages/Services.tsx";
 import Home from "./pages/Home.tsx";
+import PropertyDetails from "./pages/PropertyDetails.tsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/properties",
         element: <Properties />,
+      },
+      {
+        path: "/properties/details",
+        element: <PropertyDetails />,
       },
       {
         path: "/services",

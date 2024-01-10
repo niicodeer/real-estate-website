@@ -35,10 +35,10 @@ export default function CardMember({
         </div>
         <div className="flex justify-center flex-col items-center gap-4 xl:gap-5 2xl:gap-6">
           <div className="text-center">
-            <h1 className="font-semibold text-white text-base xl:text-xl 2xl:text-2xl leading-7 2xl:mb-2">
+            <h1 className="font-semibold text-white text-lg xl:text-xl 2xl:text-2xl leading-7 2xl:mb-2">
               {name}
             </h1>
-            <p className=" font-semibold text-gray-60 text-sm xl:text-[16px] 2xl:text-xl leading-6">
+            <p className=" font-semibold text-gray-60 text-sm xl:text-base 2xl:text-xl leading-6">
               {ocuppation}
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function CardMember({
               id="msg-input"
               name="msg-input"
               placeholder="Say Hello 👋"
-              className="w-full h-16 xl:h-14 2xl:h-[72px] rounded-[100px] border border-gray-15 bg-gray-10 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-base outline-none text-white py-2 px-6 pr-16 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full h-16 xl:h-14 2xl:h-[72px] rounded-[100px] border border-gray-15 bg-gray-10 focus:ring-2 focus:ring-purple-70 focus:border-purple-75 text-lg outline-none text-white py-2 px-6 pr-16 leading-8 transition-colors duration-200 ease-in-out"
             />
             <div className="absolute inset-y-0 p-3 right-2 top-2 xl:top-2.5 xl:right-2.5 2xl:top-3.5 2xl:right-3.5 w-12 h-12 xl:w-9 xl:h-9 2xl:w-12 2xl:h-12 flex items-center justify-center cursor-pointer bg-purple-60 rounded-full">
               <IconSend />

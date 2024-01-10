@@ -13,7 +13,7 @@ export default function SectionCTA() {
           <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-semibold mb-4 text-white xl:leading-[72px]">
             Start Your Real Estate Journey Today
           </h1>
-          <p className="w-full leading-relaxed text-gray-60 text-sm lg:text-[16px] 2xl:text-base">
+          <p className="w-full leading-relaxed text-gray-60 text-sm lg:text-base 2xl:text-lg">
             Your dream property is just a click away. Whether you're looking for
             a new home, a strategic investment, or expert real estate advice,
             Estatein is here to assist you every step of the way. Take the first

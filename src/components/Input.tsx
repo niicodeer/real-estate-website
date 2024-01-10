@@ -21,7 +21,7 @@ export default function Input({
   ...props
 }: InputProps) {
   const className =
-    "h-14 2xl:h-16 w-full rounded-lg bg-gray-10 border border-gray-15 py-4 px-5 2xl:py-5 text-white 2xl:text-base";
+    "h-14 2xl:h-16 w-full rounded-lg bg-gray-10 border border-gray-15 py-4 px-5 2xl:py-5 text-white 2xl:text-lg";
   return (
     <div
       className={`flex flex-col gap-4 w-full xl:max-w-[270px] 2xl:max-w-[310px] ${classname}`}

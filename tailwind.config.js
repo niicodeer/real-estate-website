@@ -16,9 +16,6 @@ export default {
         "gray-50": "#808080",
         "gray-60": "#999999",
       },
-      fontSize:{
-        'base': '18px'
-      },
       fontFamily:{
         'urbanist': ['Urbanist', 'sans-serif'],
       }

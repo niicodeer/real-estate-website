@@ -25,7 +25,7 @@ export default function About() {
                 <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                   200+
                 </h2>
-                <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+                <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                   Happy Customers
                 </p>
               </div>
@@ -33,7 +33,7 @@ export default function About() {
                 <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                   10k+
                 </h2>
-                <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+                <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                   Properties For Clients
                 </p>
               </div>
@@ -41,7 +41,7 @@ export default function About() {
                 <h2 className="font-bold 2xl:text-4xl text-2xl text-white pb-1 2xl:leading-[60px]">
                   16+
                 </h2>
-                <p className="leading-relaxed text-sm 2xl:text-base text-gray-60">
+                <p className="leading-relaxed text-sm 2xl:text-lg text-gray-60">
                   Years of Experience
                 </p>
               </div>

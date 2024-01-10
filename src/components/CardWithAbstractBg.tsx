@@ -25,7 +25,7 @@ export default function CardWithAbstractBg({
             </h2>
             <Button text="Learn More" secondary />
           </div>
-          <p className="text-gray-60 text-sm xl:text-[16px] 2xl:text-base ">
+          <p className="text-gray-60 text-sm xl:text-base 2xl:text-lg ">
             {text}
           </p>
         </>
@@ -35,7 +35,7 @@ export default function CardWithAbstractBg({
             <h2 className="text-white font-bold text-xl xl:text-2xl 2xl:text-3xl">
               {title}
             </h2>
-            <p className="text-gray-60 text-sm xl:text-[16px] 2xl:text-base ">
+            <p className="text-gray-60 text-sm xl:text-base 2xl:text-lg ">
               {text}
             </p>
             <Button text="Learn More" secondary />

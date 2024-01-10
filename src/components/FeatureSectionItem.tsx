@@ -19,7 +19,7 @@ export default function FeatureSectionItem({
             <IconUpRightArrow />
           </div>
           {children}
-          <h2 className="title-font font-semibold text-sm lg:text-[16px] 2xl:text-xl text-white">
+          <h2 className="title-font font-semibold text-sm lg:text-base 2xl:text-xl text-white">
             {title}
           </h2>
         </div>
