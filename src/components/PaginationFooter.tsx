@@ -6,6 +6,7 @@ export type PaginationFooterProps = {
   buttonText?: string;
   next?:()=>void;
   prev?:()=>void;
+  sticks?:boolean
 };
 export default function PaginationFooter({
   min,

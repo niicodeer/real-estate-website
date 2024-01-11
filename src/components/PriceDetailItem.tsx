@@ -9,7 +9,7 @@ export default function PriceDetailItem({
   text = "",
 }) {
   return (
-    <div className="flex flex-col gap-2.5">
+    <div className="flex flex-col gap-2.5 w-full xl:max-w-[47%]">
       <TitleH4 text={concept} />
       <div className="flex items-center gap-3">
         <TitleH3 text={price} />
