@@ -1,7 +1,8 @@
 <br/>
 <p align="center">
   <a href="https://github.com/niicodeer/real-estate-website">
-    <img src="src/assets/Estatein-logo.svg" alt="Logo" width="100" height="100">
+    <!-- <img src="src/assets/Estatein-logo.svg" alt="Logo" width="100" height="100" )/> -->
+    <img src="https://github.com/niicodeer/real-estate-website/assets/97641886/417a889d-5cde-4099-909a-90479c97ff46" alt="Logo" width="160" )/>
   </a>
 
   <h3 align="center">Estatein Real Estate Website</h3>
@@ -19,7 +20,7 @@
   - [Screenshots](#screenshots)  
 * [Stack](#stack)
 * [Empezando](#empezando)
-  * [Instalación](#instalacion)
+  * [Probar localmente](#probar-locamente)
 * [Autores](#autores)
 * [Agradecimientos / Menciones](#agradecimientos/menciones)
 
@@ -56,12 +57,17 @@ Proyecto _frontend_ desarrollado a manera de práctica, siguiendo un diseño de 
 Puedes correr el repositorio localmente siguiendo los siguientes pasos
 
 
-### Instalación
+### Probar localmente
 
 1. Clone the repo
 
 ```sh
 git clone https://github.com/niicodeer/real-estate-website.git
+```
+2. Access to project's folder
+
+```sh
+cd real-state-website
 ```
 
 3. Install NPM packages
