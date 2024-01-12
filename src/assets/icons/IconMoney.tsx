@@ -3,8 +3,8 @@ import React from "react";
 export default function IconMoney() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 83 82"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -46,8 +46,8 @@ export default function IconMoney() {
         fill="#A685FA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M26.625 30.9062C26.625 29.4392 27.8142 28.25 29.2812 28.25H53.7188C55.1858 28.25 56.375 29.4392 56.375 30.9062V44.7188C56.375 46.1858 55.1858 47.375 53.7188 47.375H29.2812C27.8142 47.375 26.625 46.1858 26.625 44.7188V30.9062ZM36.1875 37.8125C36.1875 34.8785 38.566 32.5 41.5 32.5C44.434 32.5 46.8125 34.8785 46.8125 37.8125C46.8125 40.7465 44.434 43.125 41.5 43.125C38.566 43.125 36.1875 40.7465 36.1875 37.8125ZM51.0625 36.75C50.4757 36.75 50 37.2257 50 37.8125V37.8231C50 38.4099 50.4757 38.8856 51.0625 38.8856H51.0731C51.6599 38.8856 52.1356 38.4099 52.1356 37.8231V37.8125C52.1356 37.2257 51.6599 36.75 51.0731 36.75H51.0625ZM30.875 37.8125C30.875 37.2257 31.3507 36.75 31.9375 36.75H31.9481C32.5349 36.75 33.0106 37.2257 33.0106 37.8125V37.8231C33.0106 38.4099 32.5349 38.8856 31.9481 38.8856H31.9375C31.3507 38.8856 30.875 38.4099 30.875 37.8231V37.8125Z"
         fill="#A685FA"
       />
@@ -64,8 +64,8 @@ export default function IconMoney() {
           y2="-5.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_121_1900"
@@ -75,8 +75,8 @@ export default function IconMoney() {
           y2="82"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_121_1900"
@@ -86,8 +86,8 @@ export default function IconMoney() {
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_121_1900"
@@ -97,8 +97,8 @@ export default function IconMoney() {
           y2="35"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

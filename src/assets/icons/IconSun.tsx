@@ -3,8 +3,8 @@ import React from "react";
 export default function IconSun() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 83 82"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +86,8 @@ export default function IconSun() {
           y2="-5.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_121_1916"
@@ -97,8 +97,8 @@ export default function IconSun() {
           y2="82"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_121_1916"
@@ -108,8 +108,8 @@ export default function IconSun() {
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_121_1916"
@@ -119,8 +119,8 @@ export default function IconSun() {
           y2="35"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

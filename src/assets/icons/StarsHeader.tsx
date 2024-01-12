@@ -1,13 +1,13 @@
 export default function StarsHeader() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 69 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_75_930)">
+      <g clipPath="url(#clip0_75_930)">
         <path
           d="M15 30.0166C23.2843 30.0166 30 23.3009 30 15.0166C30 6.73233 23.2843 0.0166836 15 0.0166836C6.71573 0.0166836 0 6.73233 0 15.0166C0 23.3009 6.71573 30.0166 15 30.0166Z"
           fill="#666666"
@@ -29,7 +29,7 @@ export default function StarsHeader() {
           fill="#141414"
         />
       </g>
-      <g clip-path="url(#clip1_75_930)">
+      <g clipPath="url(#clip1_75_930)">
         <path
           d="M45 24.01C49.9706 24.01 54 19.9805 54 15.01C54 10.0394 49.9706 6.01001 45 6.01001C40.0294 6.01001 36 10.0394 36 15.01C36 19.9805 40.0294 24.01 45 24.01Z"
           fill="#333333"
@@ -51,7 +51,7 @@ export default function StarsHeader() {
           fill="#141414"
         />
       </g>
-      <g clip-path="url(#clip2_75_930)">
+      <g clipPath="url(#clip2_75_930)">
         <path
           d="M64.2 19.2046C66.5196 19.2046 68.4 17.3242 68.4 15.0046C68.4 12.6851 66.5196 10.8047 64.2 10.8047C61.8804 10.8047 60 12.6851 60 15.0046C60 17.3242 61.8804 19.2046 64.2 19.2046Z"
           fill="#333333"

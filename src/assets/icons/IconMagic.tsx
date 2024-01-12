@@ -1,8 +1,8 @@
 export default function IconMagic() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 61 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -40,20 +40,20 @@ export default function IconMagic() {
         stroke="url(#paint3_linear_172_3310)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M27.668 22.5C28.0028 22.5 28.2971 22.722 28.3891 23.044L29.2023 25.8902C29.5582 27.1359 30.532 28.1097 31.7778 28.4657L34.624 29.2789C34.946 29.3709 35.168 29.6651 35.168 30C35.168 30.3349 34.946 30.6291 34.624 30.7211L31.7778 31.5343C30.532 31.8903 29.5582 32.8641 29.2023 34.1099L28.3891 36.956C28.2971 37.278 28.0028 37.5 27.668 37.5C27.3331 37.5 27.0388 37.278 26.9468 36.956L26.1336 34.1099C25.7777 32.8641 24.8039 31.8903 23.5581 31.5343L20.7119 30.7211C20.39 30.6291 20.168 30.3349 20.168 30C20.168 29.6651 20.39 29.3709 20.7119 29.2789L23.5581 28.4657C24.8039 28.1097 25.7777 27.1359 26.1336 25.8901L26.9468 23.044C27.0388 22.722 27.3331 22.5 27.668 22.5Z"
         fill="#A685FA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M36.668 19.5C37.0121 19.5 37.3121 19.7342 37.3956 20.0681L37.6544 21.1036C37.8896 22.0441 38.6239 22.7784 39.5644 23.0135L40.5999 23.2724C40.9337 23.3559 41.168 23.6558 41.168 24C41.168 24.3442 40.9337 24.6441 40.5999 24.7276L39.5644 24.9865C38.6239 25.2216 37.8896 25.9559 37.6544 26.8964L37.3956 27.9319C37.3121 28.2658 37.0121 28.5 36.668 28.5C36.3238 28.5 36.0238 28.2658 35.9404 27.9319L35.6815 26.8964C35.4464 25.9559 34.712 25.2216 33.7715 24.9865L32.7361 24.7276C32.4022 24.6441 32.168 24.3442 32.168 24C32.168 23.6558 32.4022 23.3559 32.7361 23.2724L33.7715 23.0135C34.712 22.7784 35.4464 22.0441 35.6815 21.1036L35.9404 20.0681C36.0238 19.7342 36.3238 19.5 36.668 19.5Z"
         fill="#A685FA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M35.168 33C35.4908 33 35.7774 33.2066 35.8795 33.5128L36.2737 34.6956C36.423 35.1435 36.7745 35.4949 37.2224 35.6442L38.4051 36.0385C38.7114 36.1406 38.918 36.4272 38.918 36.75C38.918 37.0728 38.7114 37.3594 38.4051 37.4615L37.2224 37.8558C36.7745 38.0051 36.423 38.3565 36.2737 38.8044L35.8795 39.9872C35.7774 40.2934 35.4908 40.5 35.168 40.5C34.8451 40.5 34.5585 40.2934 34.4565 39.9872L34.0622 38.8044C33.9129 38.3565 33.5614 38.0051 33.1135 37.8558L31.9308 37.4615C31.6245 37.3594 31.418 37.0728 31.418 36.75C31.418 36.4272 31.6245 36.1406 31.9308 36.0385L33.1135 35.6442C33.5614 35.4949 33.9129 35.1435 34.0622 34.6956L34.4565 33.5128C34.5585 33.2066 34.8451 33 35.168 33Z"
         fill="#A685FA"
       />
@@ -66,8 +66,8 @@ export default function IconMagic() {
           y2="-4.02439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_172_3310"
@@ -77,8 +77,8 @@ export default function IconMagic() {
           y2="60"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_172_3310"
@@ -88,8 +88,8 @@ export default function IconMagic() {
           y2="52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_172_3310"
@@ -99,8 +99,8 @@ export default function IconMagic() {
           y2="25.7419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

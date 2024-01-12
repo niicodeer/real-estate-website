@@ -1,8 +1,8 @@
 export default function IconUnion() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 60 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@ export default function IconUnion() {
           y2="-4.02439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_172_3294"
@@ -75,8 +75,8 @@ export default function IconUnion() {
           y2="60"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_172_3294"
@@ -86,8 +86,8 @@ export default function IconUnion() {
           y2="52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_172_3294"
@@ -97,8 +97,8 @@ export default function IconUnion() {
           y2="25.7419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

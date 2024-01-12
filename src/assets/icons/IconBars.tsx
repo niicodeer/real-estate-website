@@ -1,8 +1,8 @@
 export default function IconBars() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -60,8 +60,8 @@ export default function IconBars() {
           y2="-3.21951"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_172_4319"
@@ -71,8 +71,8 @@ export default function IconBars() {
           y2="48"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_172_4319"
@@ -82,8 +82,8 @@ export default function IconBars() {
           y2="42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_172_4319"
@@ -93,8 +93,8 @@ export default function IconBars() {
           y2="20.5161"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

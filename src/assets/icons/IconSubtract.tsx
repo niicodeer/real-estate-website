@@ -1,8 +1,8 @@
 export default function IconSubtract() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 61 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +40,8 @@ export default function IconSubtract() {
         stroke="url(#paint3_linear_172_3302)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M20.582 22.125C20.582 21.0895 21.4215 20.25 22.457 20.25H27.707C28.7426 20.25 29.582 21.0895 29.582 22.125V35.25C29.582 37.7353 27.5673 39.75 25.082 39.75C22.5968 39.75 20.582 37.7353 20.582 35.25V22.125ZM25.082 36.375C25.7034 36.375 26.207 35.8713 26.207 35.25C26.207 34.6287 25.7034 34.125 25.082 34.125C24.4607 34.125 23.957 34.6287 23.957 35.25C23.957 35.8713 24.4607 36.375 25.082 36.375Z"
         fill="#A685FA"
       />
@@ -62,8 +62,8 @@ export default function IconSubtract() {
           y2="-4.02439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_172_3302"
@@ -73,8 +73,8 @@ export default function IconSubtract() {
           y2="60"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_172_3302"
@@ -84,8 +84,8 @@ export default function IconSubtract() {
           y2="52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_172_3302"
@@ -95,8 +95,8 @@ export default function IconSubtract() {
           y2="25.7419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

@@ -1,8 +1,8 @@
 export default function IconSpotlight() {
   return (
     <svg
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       viewBox="0 0 60 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -44,14 +44,14 @@ export default function IconSpotlight() {
         fill="#A685FA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M27.0131 37.8997C27.0903 37.4927 27.4828 37.2254 27.8898 37.3026C28.5727 37.4321 29.2781 37.5 30 37.5C30.7219 37.5 31.4273 37.4321 32.1102 37.3026C32.5172 37.2254 32.9097 37.4927 32.9869 37.8997C33.0641 38.3066 32.7967 38.6991 32.3898 38.7763C31.6151 38.9232 30.8162 39 30 39C29.1838 39 28.3849 38.9232 27.6102 38.7763C27.2033 38.6991 26.9359 38.3066 27.0131 37.8997Z"
         fill="#A685FA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M27.7541 40.344C27.7972 39.932 28.1661 39.633 28.578 39.6761C29.0451 39.7249 29.5195 39.75 30 39.75C30.4805 39.75 30.9549 39.7249 31.422 39.6761C31.8339 39.633 32.2028 39.932 32.2459 40.344C32.289 40.7559 31.99 41.1248 31.578 41.1679C31.0592 41.2222 30.5327 41.25 30 41.25C29.4673 41.25 28.9408 41.2222 28.422 41.1679C28.01 41.1248 27.711 40.7559 27.7541 40.344Z"
         fill="#A685FA"
       />
@@ -64,8 +64,8 @@ export default function IconSpotlight() {
           y2="-4.02439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_172_3512"
@@ -75,8 +75,8 @@ export default function IconSpotlight() {
           y2="60"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_172_3512"
@@ -86,8 +86,8 @@ export default function IconSpotlight() {
           y2="52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.323723" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.323723" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_172_3512"
@@ -97,8 +97,8 @@ export default function IconSpotlight() {
           y2="25.7419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A685FA" />
-          <stop offset="0.576615" stop-color="#A685FA" stop-opacity="0" />
+          <stop stopColor="#A685FA" />
+          <stop offset="0.576615" stopColor="#A685FA" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
