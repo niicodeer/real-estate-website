@@ -7,7 +7,7 @@
   <h3 align="center">Estatein Real Estate Website</h3>
 
   <p align="center">
-    <a href="https://github.com/niicodeer/real-estate-website">View Demo</a>
+    <a href="https://real-estate-website-lovat.vercel.app/">View Demo</a>
   </p>
 </p>
 
