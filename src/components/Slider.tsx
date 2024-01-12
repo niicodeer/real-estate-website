@@ -34,8 +34,6 @@ export default function Slider<T>({ children, data, elementsPerView = 1, buttonT
               /* className={`${i < elementsPerView ? "flex flex-1 w-auto xl:max-w-[50%]" : "hidden"} `} */
               key={i}
             >
-              
-              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               {cloneElement(children as ReactElement, { ...el } as never)}
             </div>
           ))}
