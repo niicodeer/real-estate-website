@@ -16,8 +16,18 @@ function HeaderNav() {
         <div className="lg:hidden">
           <IconMenuHamburguer onClick={() => setOpen(!open)} open={open} />
         </div>
-        <div className={`lg:flex flex-1 justify-end ${open ? 'absolute top-14 flex flex-col items-end gap-y-12 p-8 bg-gray-10 w-full':'hidden' }`}>
-          <nav className={`flex w-full text-lg gap-8 lg:flex-1 ${open ? 'flex-col items-center' : 'items-center justify-center'}`}>
+        <div
+          className={`flex-1 justify-end ${
+            open
+              ? "absolute top-14 flex flex-col items-end gap-y-12 p-8 bg-gray-10 w-full"
+              : "hidden"
+          }`}
+        >
+          <nav
+            className={`flex w-full text-lg gap-8 lg:flex-1 ${
+              open ? "flex-col items-center" : "items-center justify-center"
+            }`}
+          >
             <NavLink
               to={"/"}
               className={({ isActive }) =>
@@ -25,7 +35,7 @@ function HeaderNav() {
                   ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
                   : "hover:font-semibold"
               }
-              onClick={()=>setOpen(!open)}
+              onClick={() => setOpen(!open)}
             >
               Home
             </NavLink>
@@ -36,7 +46,7 @@ function HeaderNav() {
                   ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
                   : "hover:font-semibold"
               }
-              onClick={()=>setOpen(!open)}
+              onClick={() => setOpen(!open)}
             >
               About
             </NavLink>
@@ -47,7 +57,7 @@ function HeaderNav() {
                   ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
                   : "hover:font-semibold"
               }
-              onClick={()=>setOpen(!open)}
+              onClick={() => setOpen(!open)}
             >
               Properties
             </NavLink>
@@ -58,7 +68,57 @@ function HeaderNav() {
                   ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
                   : "hover:font-semibold"
               }
-              onClick={()=>setOpen(!open)}
+              onClick={() => setOpen(!open)}
+            >
+              Services
+            </NavLink>
+          </nav>
+          <div className="">
+            <Button text={"Contact us"} secondary />
+          </div>
+        </div>
+
+        <div className={`hidden lg:flex flex-1 justify-end`}>
+          <nav
+            className={`flex w-full text-lg gap-8 lg:flex-1 items-center justify-center`}
+          >
+            <NavLink
+              to={"/"}
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
+                  : "hover:font-semibold"
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to={"about"}
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
+                  : "hover:font-semibold"
+              }
+            >
+              About
+            </NavLink>
+            <NavLink
+              to={"properties"}
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
+                  : "hover:font-semibold"
+              }
+            >
+              Properties
+            </NavLink>
+            <NavLink
+              to={"services"}
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-08 ring ring-inset ring-gray-15 py-4 px-6 rounded-lg"
+                  : "hover:font-semibold"
+              }
             >
               Services
             </NavLink>
