@@ -17,7 +17,7 @@ const propImages = {
 };
 export default function SliderImage({ elementsPerView = 2 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [dataSlice, setDataSlice] = useState<[]>([]);
+  const [dataSlice, setDataSlice] = useState<string[]>([]);
 
   useEffect(() => {
     const endIndex = currentIndex + elementsPerView;

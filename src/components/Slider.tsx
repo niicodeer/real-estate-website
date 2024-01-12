@@ -1,15 +1,15 @@
 import { ReactElement, cloneElement, useEffect, useState } from "react";
 import PaginationFooter from "./PaginationFooter";
 
-type SliderProps = {
-  data: []; // Ajusta el tipo según la estructura de tus datos
+type SliderProps<T>= {
+  data: T[]; 
   children: ReactElement;
   elementsPerView?: number;
   buttonText?:string
 };
-export default function Slider({ children, data, elementsPerView = 1, buttonText }: SliderProps) {
+export default function Slider<T>({ children, data, elementsPerView = 1, buttonText }: SliderProps<T>) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [dataSlice, setDataSlice] = useState<[]>([]);
+  const [dataSlice, setDataSlice] = useState<T[]>([]);
 
   useEffect(() => {
     const endIndex = currentIndex + elementsPerView;
@@ -34,7 +34,9 @@ export default function Slider({ children, data, elementsPerView = 1, buttonText
               /* className={`${i < elementsPerView ? "flex flex-1 w-auto xl:max-w-[50%]" : "hidden"} `} */
               key={i}
             >
-              {cloneElement(children as ReactElement, el)}
+              
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              {cloneElement(children as ReactElement, { ...el } as never)}
             </div>
           ))}
         </div>
