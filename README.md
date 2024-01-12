@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/niicodeer/real-estate-website">
-    <img src="src/assets/Estatein-logo.svg" alt="Logo" width="80" height="80">
+    <img src="src/assets/Estatein-logo.svg" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Estatein Real Estate Website</h3>
@@ -13,40 +13,48 @@
 
 
 
-## Table Of Contents
+## Tabla de contenidos
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+* [Sobre el Proyecto](#about-the-project)
+  - [Screenshots](#screenshots)  
+* [Stack](#stack)
+* [Empezando](#empezando)
+  * [Instalación](#instalacion)
+* [Autores](#autores)
+* [Agradecimientos / Menciones](#agradecimientos/menciones)
 
-## About The Project
+## Sobre el Proyecto
 
 Proyecto desarrollado a manera de práctica, siguiendo un diseño de Figma de [Produce-ui](https:///produce-ui.com)
-Link Figma: [Figma Real State Website](https://www.figma.com/file/x1IzD4jCVedHJLylPsMQ1J/Real-Estate-Business-Website-UI-Template---Dark-Theme-%7C-Produce-UI-(Community)-(Copy)?type=design&node-id=501%3A4&mode=design&t=hMGRxy5ZVoCZM2ER-1)
+<br/>
+<br/>
+- Link Figma: [Figma Real State Website](https://www.figma.com/file/x1IzD4jCVedHJLylPsMQ1J/Real-Estate-Business-Website-UI-Template---Dark-Theme-%7C-Produce-UI-(Community)-(Copy)?type=design&node-id=501%3A4&mode=design&t=hMGRxy5ZVoCZM2ER-1)
+<br/>
+<br/>
 
-###Screenshots
+### Screenshots
 
 ![Screen Shot](/screenshots/Home%20Page%20-%20Laptop.png)
+![Screen Shot](/screenshots/Property%20Details%20Page%20-%20Laptop.png)
 
-## Built With
+<br/>
+
+## Stack
 
 Desarrollado con React, Typescript, Tailwind, React-Router
+<br/>
 
-* [](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-* [](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-* [](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-* [](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Shields](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Shields](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Shields](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Shields](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-## Getting Started
+
+<br/>
+
+## Empezando
 
 Puedes correr el repositorio localmente siguiendo los siguientes pasos
 
 
-### Installation
+### Instalación
 
 1. Clone the repo
 
@@ -67,12 +75,12 @@ npm run dev
 ```
 
 
-## Authors
+## Autores
 
-* **Nico Radin** - *Desarrollador Full stack* - [Nico Radin](https://github.com/niicodeer) - **
+* **Nico Radin** - *Desarrollador Full stack* - [Nico Radin](https://github.com/niicodeer) - 
 
 
-### Acknowledgements
+### Agradecimientos/Menciones
 
 * [Produce-ui](https:///produce-ui.com)
 * [ImgShields](https://shields.io/)
