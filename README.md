@@ -25,7 +25,10 @@
 
 ## Sobre el Proyecto
 
-Proyecto desarrollado a manera de práctica, siguiendo un diseño de Figma de [Produce-ui](https:///produce-ui.com)
+Proyecto _frontend_ desarrollado a manera de práctica, siguiendo un diseño de Figma de [Produce-ui](https:///produce-ui.com)
+<br/>
+<br/>
+**PROXIMAMENTE...** se desarrollará el _backend_ para lograr una Webapp completa.
 <br/>
 <br/>
 - Link Figma: [Figma Real State Website](https://www.figma.com/file/x1IzD4jCVedHJLylPsMQ1J/Real-Estate-Business-Website-UI-Template---Dark-Theme-%7C-Produce-UI-(Community)-(Copy)?type=design&node-id=501%3A4&mode=design&t=hMGRxy5ZVoCZM2ER-1)
@@ -41,7 +44,6 @@ Proyecto desarrollado a manera de práctica, siguiendo un diseño de Figma de [P
 
 ## Stack
 
-Desarrollado con React, Typescript, Tailwind, React-Router
 <br/>
 
 ![Shields](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Shields](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Shields](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Shields](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
