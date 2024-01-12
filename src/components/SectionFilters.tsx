@@ -27,30 +27,35 @@ export default function SectionFilters() {
             id="locationFilter"
             placeholder="Location"
             options={[1, 2, 3, 4]}
+            key={"locationFilter"}
           />
           <SelectInput
             icon={<IconHouse />}
             id="houseFilter"
             placeholder="Property Type"
             options={[1, 2, 3, 4]}
+            key={"houseFilter"}
           />
           <SelectInput
             icon={<IconPrice />}
             id="priceFilter"
             placeholder="Pricing Range"
             options={[1, 2, 3, 4]}
+            key={"priceFilter"}
           />
           <SelectInput
             icon={<IconBox />}
             id="sizeFilter"
             placeholder="Property Size"
             options={[1, 2, 3, 4]}
+            key={"sizeFilter"}
           />
           <SelectInput
             icon={<IconCalendar />}
             id="yearFilter"
             placeholder="Build Year"
             options={[1, 2, 3, 4]}
+            key={"yearFilter"}
           />
         </div>
       </div>

@@ -56,6 +56,7 @@ export default function SliderImage({ elementsPerView = 2 }) {
                   src={el}
                   alt="prop1"
                   className="block object-cover object-center h-auto w-full rounded-xl"
+                  key={el}
                 />
               </div>
             ))}

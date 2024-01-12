@@ -13,7 +13,8 @@ export default function Form({className}:FormProps) {
   const [selected, setSelected] = useState("phone");
   return (
     <CardContainer className={className} >
-      <div className="flex flex-wrap gap-5 xl:gap-7 2xl:gap-12">
+      
+      <form className="flex flex-wrap gap-5 xl:gap-7 2xl:gap-12">
         <Input
           type="text"
           id="firstname"
@@ -166,7 +167,7 @@ export default function Form({className}:FormProps) {
           </div>
           <Button text="Send Your Message" primary />
         </div>
-      </div>
+      </form>
     </CardContainer>
   );
 }

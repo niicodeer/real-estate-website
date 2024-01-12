@@ -24,7 +24,7 @@ export default function SelectInput({
       <select name={id} id={id} className={"pl-16 " + className}>
         <option value={placeholder} >{placeholder}</option>
         {options?.map((option) => (
-          <option value={option} className="max-w-[232px]">{option}</option>
+          <option value={option} className="max-w-[232px]" key={option}>{option}</option>
         ))}
       </select>
       <div className="absolute top-[50%] -translate-y-[50%] right-5 h-3 w-3 border-l border-white border-b -rotate-45 "></div>

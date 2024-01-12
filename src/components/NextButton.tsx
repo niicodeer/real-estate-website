@@ -1,4 +1,4 @@
-import IconRightArrow from "./IconRightArrow";
+import IconRightArrow from "../assets/icons/IconRightArrow";
 import { ButtonProp } from "./PrevButton";
 
 export default function NextButton({disabled=false, onClick}:ButtonProp) {

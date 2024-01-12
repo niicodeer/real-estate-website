@@ -6,7 +6,7 @@ export default function SectionSteps() {
     <div className="flex gap-8 xl:gap-x-5 xl:gap-y-10 flex-wrap">
       {steps.map((step, i) =>
         i < 3 ? (
-          <div className="flex xl:flex-1 xl:min-w-[400px] ">
+          <div className="flex xl:flex-1 xl:min-w-[400px] " key={i}>
             <CardStep
               number={step.number}
               title={step.title}
@@ -15,7 +15,7 @@ export default function SectionSteps() {
             />
           </div>
         ) : (
-          <div className="hidden xl:flex flex-1 xl:min-w-[400px] ">
+          <div className="hidden xl:flex flex-1 xl:min-w-[400px] " key={i}>
             <CardStep
               number={step.number}
               title={step.title}

@@ -6,7 +6,7 @@ import Input from './Input'
 export default function FormPricingDetails() {
   return (
     <CardContainer className="p-5 xl:p-10 2xl:p-[50px] 2xl:gap-7 xl:max-w-[790px] 2xl:max-w-[984px]">
-    <div className="flex flex-wrap gap-5 xl:gap-7 2xl:gap-12">
+    <form className="flex flex-wrap gap-5 xl:gap-7 2xl:gap-12">
       <Input
         type="text"
         id="firstname"
@@ -105,7 +105,7 @@ export default function FormPricingDetails() {
         </div>
         <Button text="Send Your Message" primary />
       </div>
-    </div>
+    </form>
   </CardContainer>
   )
 }

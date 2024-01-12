@@ -78,7 +78,7 @@ function HeaderNav() {
           </div>
         </div>
 
-        <div className={`hidden lg:flex flex-1 justify-end`}>
+        <div className={`hidden lg:flex flex-1 justify-end items-center`}>
           <nav
             className={`flex w-full text-lg gap-8 lg:flex-1 items-center justify-center`}
           >
@@ -124,7 +124,7 @@ function HeaderNav() {
             </NavLink>
           </nav>
           <div className="">
-            <Button text={"Contact us"} secondary />
+            <Button text={"Contact us"} className="hover:bg-purple-70"/>
           </div>
         </div>
       </div>

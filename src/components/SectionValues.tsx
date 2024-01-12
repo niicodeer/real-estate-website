@@ -1,7 +1,7 @@
 import IconCap from "../assets/icons/IconCap";
 import IconStar from "../assets/icons/IconStar";
 import CardContainerShadow from "./CardContainerShadow";
-import IconPeople from "./IconPeople";
+import IconPeople from "../assets/icons/IconPeople";
 import SectionValueItem from "./SectionValueItem";
 import SeparatorLine from "./SeparatorLine";
 

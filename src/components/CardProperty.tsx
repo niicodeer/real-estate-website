@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { PropertyType } from "../data/data";
 import AmmenityBadge from "./AmmenityBadge";
 import Button from "./Button";
@@ -20,6 +21,12 @@ type CardPropertyProps = {
 };
 
 export default function CardProperty({ data,secondary, image, title, description, epigraph, ammenities, price }: CardPropertyProps) {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/properties/details");
+  }
+
   return (
     <CardContainer>
       <div className="w-full p-6 lg:p-7 2xl:p-10 min-w-[360px] lg:max-w-[410px] 2xl:max-w-[512px]">
@@ -65,7 +72,8 @@ export default function CardProperty({ data,secondary, image, title, description
                 {data?.price || price}
               </h3>
             </div>
-            <Button primary text="View Property Details" />
+            <a href=""></a>
+            <Button primary text="View Property Details" onClick={()=> handleClick()}/>
           </div>
         </div>
       </div>

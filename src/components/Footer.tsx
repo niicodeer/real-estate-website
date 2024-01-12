@@ -28,9 +28,9 @@ export default function Footer() {
             <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -40,9 +40,9 @@ export default function Footer() {
             <a className="text-white w-14 lg:w-12 h-14 lg:h-12 rounded-full bg-gray-08 flex justify-center items-center">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -53,9 +53,9 @@ export default function Footer() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -67,9 +67,9 @@ export default function Footer() {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -123,8 +123,8 @@ function FooterLinks() {
       </div>
       {/* Categories Section */}
       <div className="w-full xl:w-4/6 flex lg:justify-end flex-wrap lg:flex-nowrap mt-10 lg:mt-0 text-left lg:gap-x-16">
-        {links.map((link) => (
-          <FooterCategory data={link} />
+        {links.map((link,i) => (
+          <FooterCategory data={link} key={i} />
         ))}
       </div>
     </div>
