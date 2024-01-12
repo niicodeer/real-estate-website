@@ -1,3 +1,18 @@
+import prop1 from '../assets/prop1.png'
+import prop2 from '../assets/prop2.png'
+import prop3 from '../assets/prop3.png'
+
+import davidBrown from '../assets/member-david-brown.png'
+import maxMitchel from '../assets/member-max-mitchel.png'
+import michaelTurner from '../assets/member-michael-turner.png'
+import sarahJohnson from '../assets/member-sarah-johnson.png'
+
+import wadeWarren from '../assets/profile-wade-warren.png'
+import emilieThomson from '../assets/profile-emilie-thomson.png'
+import johnMans from '../assets/profile-john-mans.png'
+
+
+
 export type TestimonialType = {
   stars?: number;
   title?: string;
@@ -57,7 +72,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 5,
     title: "Exceptional Service!",
     text: "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
-    image: "\\src\\assets\\profile-wade-warren.png",
+    image: wadeWarren,
     name: "Wade Warren",
     city: "USA, California",
   },
@@ -65,7 +80,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 5,
     title: "Efficient and Reliable",
     text: "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
-    image: "\\src\\assets\\profile-emilie-thomson.png",
+    image: emilieThomson,
     name: "Emelie Thomson",
     city: "USA, Florida",
   },
@@ -73,7 +88,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 5,
     title: "Trusted Advisors",
     text: "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
-    image: "\\src\\assets\\profile-john-mans.png",
+    image: johnMans,
     name: "John Mans",
     city: "USA, Nevada",
   },
@@ -81,7 +96,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 4,
     title: "Exceptional Service!",
     text: "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
-    image: "\\src\\assets\\profile-wade-warren.png",
+    image: wadeWarren,
     name: "Wade Warren",
     city: "USA, California",
   },
@@ -89,7 +104,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 3,
     title: "Efficient and Reliable",
     text: "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
-    image: "\\src\\assets\\profile-emilie-thomson.png",
+    image: emilieThomson,
     name: "Emelie Thomson",
     city: "USA, Florida",
   },
@@ -97,7 +112,7 @@ export const testimonials: Array<TestimonialType> = [
     stars: 2,
     title: "Trusted Advisors",
     text: "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
-    image: "\\src\\assets\\profile-john-mans.png",
+    image: johnMans,
     name: "John Mans",
     city: "USA, Nevada",
   },
@@ -142,7 +157,7 @@ export const properties: PropertyType[] = [
     title: "Seaside Serenity Villa",
     description:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
-    image: "src\\assets\\prop1.png",
+    image: prop1,
     ammenities: {
       bed: "4-Bedroom",
       bath: "3-Bathroom",
@@ -155,7 +170,7 @@ export const properties: PropertyType[] = [
     title: "Metropolitan Haven",
     description:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
-    image: "src\\assets\\prop2.png",
+    image: prop2,
     ammenities: {
       bed: "2-Bedroom",
       bath: "2-Bathroom",
@@ -168,7 +183,7 @@ export const properties: PropertyType[] = [
     title: "Rustic Retreat Cottage",
     description:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
-    image: "src\\assets\\prop3.png",
+    image: prop3,
     ammenities: {
       bed: "3-Bedroom",
       bath: "3-Bathroom",
@@ -181,7 +196,7 @@ export const properties: PropertyType[] = [
     title: "Seaside Serenity Villa",
     description:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
-    image: "src\\assets\\prop1.png",
+    image: prop1,
     ammenities: {
       bed: "4-Bedroom",
       bath: "3-Bathroom",
@@ -194,7 +209,7 @@ export const properties: PropertyType[] = [
     title: "Metropolitan Haven",
     description:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
-    image: "src\\assets\\prop2.png",
+    image: prop2,
     ammenities: {
       bed: "2-Bedroom",
       bath: "2-Bathroom",
@@ -207,7 +222,7 @@ export const properties: PropertyType[] = [
     title: "Rustic Retreat Cottage",
     description:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
-    image: "src\\assets\\prop3.png",
+    image: prop3,
     ammenities: {
       bed: "3-Bedroom",
       bath: "3-Bathroom",
@@ -252,25 +267,25 @@ export const steps: CardStepProps[] = [
 
 export const members: CardMembersProps[] = [
   {
-    image: "src\\assets\\member-max-mitchel.png",
+    image: maxMitchel,
     twitter: "#",
     name: "Max Mitchell",
     ocuppation: "Founder",
   },
   {
-    image: "src\\assets\\member-sarah-johnson.png",
+    image: sarahJohnson,
     twitter: "#",
     name: "Sarah Johnson",
     ocuppation: "Chief Real Estate Officer",
   },
   {
-    image: "src\\assets\\member-david-brown.png",
+    image: davidBrown,
     twitter: "#",
     name: "David Brown",
     ocuppation: "Head of Property Management",
   },
   {
-    image: "src\\assets\\member-michael-turner.png",
+    image: michaelTurner,
     twitter: "#",
     name: "Michael Turner",
     ocuppation: "Legal Counsel",

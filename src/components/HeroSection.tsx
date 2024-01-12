@@ -1,6 +1,7 @@
 import Button from "./Button";
 import heroImage from "../assets/hero-image.png";
 import AbstractWaves from "../assets/AbstractWaves";
+import circle from '../assets/circle-text-mobile.png'
 
 export default function HeroSection() {
   return (
@@ -73,7 +74,7 @@ function CircleText() {
   return (
     <div className="lg:w-[175px] lg:h-[175px] w-32 h-32 bg-gray-08 rounded-full border-2 border-gray-15 justify-center items-center  inline-flex overflow-hidden">
       <img
-        src="src\assets\circle-text-mobile.png"
+        src={circle}
         alt=""
         className="block object-contain z-10 w-full h-full"
       />
